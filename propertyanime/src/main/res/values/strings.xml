@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PropertyAnime</string>
+    <string name="start_ani">start ani</string>
+    <string name="ball_fall">start ball_fall</string>
+    <string name="x_ball_fall">start x_ball_fall</string>
+    <string name="linear_progress">start linear_progress</string>
+    <string name="circle_progress">start circle_progress</string>
+    <string name="color_shade">start blue_to_red</string>
+    <string name="point_dece_acce">start dece_acce_interpolator</string>
+    <string name="custom_point_translate">start Point_translate</string>
+</resources>
