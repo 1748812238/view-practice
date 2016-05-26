@@ -1,0 +1,49 @@
+<com.daimajia.swipe.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemview_swipe"
+    swipe:leftEdgeSwipeOffset="0dp"
+    swipe:rightEdgeSwipeOffset="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--BottomViews-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="#FF5534"
+        android:gravity="center"
+        android:tag="Bottom3"
+        android:weightSum="10">
+        <ImageView
+            android:id="@+id/bottom_trash"
+            android:layout_width="27dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:src="@drawable/trash" />
+        <Button
+            android:id="@+id/bottom_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="#ffffff"
+            android:text="Delete Item ?"
+            android:textSize="18sp"
+            android:textColor="#FF5534" />
+    </LinearLayout>
+
+    <!--SurfaceViews-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/surface_user_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>
