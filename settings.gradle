@@ -1,1 +1,2 @@
-include ':wallpaper', ':livewallpaper', ':propertyanime'
+include ':wallpaper', ':propertyanime', ':praclistview', ':pracdownload', ':swipedemo', ':pracrecyclerview', ':imageloader'
+include ':ImageLoaderDemo'
